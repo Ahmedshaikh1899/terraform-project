@@ -19,4 +19,19 @@ servers = {
     instance_type  = "t3.micro"
     security_group = "app"
   }
+  appsrv02 = {
+    ami            = "ami-02b3d83d84b07786d"
+    instance_type  = "t3.micro"
+    security_group = "app"
+  }
+  web03 = {
+    ami            = "ami-02b3d83d84b07786d"
+    instance_type  = "t3.micro"
+    security_group = "web"
+  }
+  dbsrv01 = {
+    ami            = "ami-02b3d83d84b07786d"
+    instance_type  = "t3.micro"
+    security_group = "db"
+  }
 }
