@@ -34,4 +34,9 @@ servers = {
     instance_type  = "t3.micro"
     security_group = "db"
   }
+  dbsrv02 = {
+    ami            = "ami-02b3d83d84b07786d"
+    instance_type  = "t3.micro"
+    security_group = "db"
+  }
 }
